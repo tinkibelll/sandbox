@@ -33,6 +33,7 @@ export default function Home() {
           <div></div>
         </div>
       </div>
+      <p>this is wack on mobile, please use desktop!</p>
       <div style={{ display: "flex", flexDirection: "column", gap: "2.5rem" }}>
         {/* Self-Actualization */}
         <div>
