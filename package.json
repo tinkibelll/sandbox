@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
