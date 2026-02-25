@@ -95,13 +95,6 @@ export default function Home() {
               statusLabel="Active"
               href="/pingu"
             />
-            <Card
-              title="the digital panopticon"
-              subtitle="blog"
-              description="someone's watching you"
-              isLive={false}
-              statusLabel="Coming Soon"
-            />
           </div>
         </div>
 

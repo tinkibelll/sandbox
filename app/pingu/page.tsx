@@ -109,7 +109,7 @@ export default function Pingu() {
             <em>
               Disclaimer: None of the artifacts from the following methods were
               used for commercial purposes; this was solely for personal use!
-              Additionally, I don’t really be discuss code specifics, but rather
+              Additionally, I won't really discuss code specifics, but rather
               important design choices.
             </em>
           </p>
