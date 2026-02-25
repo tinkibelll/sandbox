@@ -9,8 +9,12 @@ export default function Home() {
         backgroundColor: "#212121",
         minHeight: "100vh",
         color: "#ededed",
-        padding: "4rem",
+        padding: "2rem 1.25rem",
         marginTop: "7vh",
+        boxSizing: "border-box",
+        maxWidth: "1200px",
+        marginLeft: "auto",
+        marginRight: "auto",
       }}
     >
       <div
@@ -19,6 +23,7 @@ export default function Home() {
           alignItems: "center",
           gap: "1rem",
           marginBottom: "30px",
+          flexWrap: "wrap",
         }}
       >
         <h3 style={{ fontWeight: "normal", margin: 0 }}>
@@ -33,7 +38,7 @@ export default function Home() {
           <div></div>
         </div>
       </div>
-      <p>this is wack on mobile, please use desktop!</p>
+
       <div style={{ display: "flex", flexDirection: "column", gap: "2.5rem" }}>
         {/* Self-Actualization */}
         <div>
@@ -52,7 +57,8 @@ export default function Home() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+              gridTemplateColumns:
+                "repeat(auto-fill, minmax(min(320px, 100%), 1fr))",
               rowGap: "1.5rem",
               columnGap: "1rem",
             }}
@@ -95,12 +101,13 @@ export default function Home() {
               marginTop: 0,
             }}
           >
-            Brainrot
+            Brainrot (Desktop Only)
           </p>
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+              gridTemplateColumns:
+                "repeat(auto-fill, minmax(min(320px, 100%), 1fr))",
               rowGap: "1.5rem",
               columnGap: "1rem",
             }}
