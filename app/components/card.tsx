@@ -31,7 +31,7 @@ export default function Card({
         backgroundColor: "#2e2e2e",
         borderRadius: "1.25rem",
         padding: "1.5rem",
-        maxWidth: "400px",
+        maxWidth: "500px",
         border: "1px solid #10b981",
         boxShadow: hovered ? "0 0 20px rgba(16,185,129,0.4)" : "none",
         transform: hovered ? "scale(1.02)" : "scale(1)",

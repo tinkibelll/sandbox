@@ -33,47 +33,102 @@ export default function Home() {
           <div></div>
         </div>
       </div>
+      <div style={{ display: "flex", flexDirection: "column", gap: "2.5rem" }}>
+        {/* Self-Actualization */}
+        <div>
+          <p
+            style={{
+              fontSize: "0.7rem",
+              color: "#94a3b8",
+              textTransform: "uppercase",
+              letterSpacing: "0.1em",
+              marginBottom: "0.75rem",
+              marginTop: 0,
+            }}
+          >
+            For Self-Actualization
+          </p>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+              rowGap: "1.5rem",
+              columnGap: "1rem",
+            }}
+          >
+            <Card
+              title="zen"
+              subtitle="dsp"
+              description="huh what's white noise"
+              isLive={true}
+              statusLabel="Active"
+              href="/zen"
+            />
+            <Card
+              title="fascinating fractals"
+              subtitle="blog"
+              description="my strange addiction"
+              isLive={true}
+              statusLabel="Active"
+              href="/fractals"
+            />
+            <Card
+              title="the digital panopticon"
+              subtitle="blog"
+              description="someone's watching you"
+              isLive={false}
+              statusLabel="Coming Soon"
+            />
+          </div>
+        </div>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-          rowGap: "1.5rem",
-          columnGap: "1rem",
-        }}
-      >
-        <Card
-          title="zen"
-          subtitle="dsp"
-          description="huh what's white noise"
-          isLive={true}
-          statusLabel="Active"
-          href="/zen"
-        />
-        <Card
-          title="life of a duck"
-          subtitle="vanilla"
-          description="mama duck lost her children"
-          isLive={true}
-          statusLabel="Active"
-          href="/duck"
-        />
-        <Card
-          title="make money!"
-          subtitle="vanilla"
-          description="i am not a rich man"
-          isLive={true}
-          statusLabel="Active"
-          href="/money"
-        />
-        <Card
-          title="fascinating fractals"
-          subtitle="blog"
-          description="my strange addiction"
-          isLive={true}
-          statusLabel="Active"
-          href="/fractals"
-        />
+        {/* Brainrot */}
+        <div>
+          <p
+            style={{
+              fontSize: "0.7rem",
+              color: "#94a3b8",
+              textTransform: "uppercase",
+              letterSpacing: "0.1em",
+              marginBottom: "0.75rem",
+              marginTop: 0,
+            }}
+          >
+            Brainrot
+          </p>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+              rowGap: "1.5rem",
+              columnGap: "1rem",
+            }}
+          >
+            <Card
+              title="life of a duck"
+              subtitle="vanilla"
+              description="mama duck lost her children"
+              isLive={true}
+              statusLabel="Active"
+              href="/duck"
+            />
+            <Card
+              title="make money!"
+              subtitle="vanilla"
+              description="i am not a rich man"
+              isLive={true}
+              statusLabel="Active"
+              href="/money"
+            />
+            <Card
+              title="some sort of visualizer"
+              subtitle="three.js/a-frame"
+              description="idrk yet lol"
+              isLive={false}
+              statusLabel="Coming Soon"
+            />
+          </div>
+        </div>
       </div>
 
       <p style={{ marginTop: "40px" }}>
