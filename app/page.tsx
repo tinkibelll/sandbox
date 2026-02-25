@@ -68,10 +68,11 @@ export default function Home() {
         />
         <Card
           title="fascinating fractals"
-          subtitle="three.js"
+          subtitle="blog"
           description="my strange addiction"
-          isLive={false}
-          statusLabel="Coming Soon"
+          isLive={true}
+          statusLabel="Active"
+          href="/fractals"
         />
       </div>
 
