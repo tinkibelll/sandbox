@@ -3,4 +3,4 @@
 :HL["/sandbox/_next/static/chunks/0918b76712679407.css","style"]
 :HL["/sandbox/_next/static/chunks/ad663930e793235e.css","style"]
 :HL["/sandbox/sierpinski.png","image"]
-0:{"buildId":"aGHRhyT8hD7jbwnzGVY4W","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"fractals","paramType":null,"paramKey":"fractals","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"_eEazuZPsly_rnvkj7PBg","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"fractals","paramType":null,"paramKey":"fractals","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
