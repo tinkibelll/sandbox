@@ -80,6 +80,14 @@ export default function Home() {
               href="/fractals"
             />
             <Card
+              title="why can't you divide by 0?"
+              subtitle="blog"
+              description="you have no friends"
+              isLive={true}
+              statusLabel="Active"
+              href="/division_zero"
+            />
+            <Card
               title="the digital panopticon"
               subtitle="blog"
               description="someone's watching you"
