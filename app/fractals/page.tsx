@@ -81,7 +81,7 @@ export default function Home() {
       <p>
         Fractals are structures that appear to be never-ending but are
         intrinsically the same at their core - wait, that's an oxymoron! My
-        exploration of these mathematical wonders started in… well, 2012,
+        exploration of these mathematical wonders started in… well, 2015,
         because I was bored and had access to the classroom computer.
       </p>
 
