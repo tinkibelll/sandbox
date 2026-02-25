@@ -93,24 +93,24 @@ export default function Pingu() {
 
           <p>
             So, let's quickly walk through a little trinket I made for my
-            friends and me: Pingu! 🐧
+            friends and I: Pingu! 🐧
           </p>
 
           <p>
-            I used to be a coverist, so I wanted to spin up something small
-            that could serve as a tool for all things musical and K-pop. For
-            this project, I heavily prioritized tasks that weren't just wrappers
-            for an LLM; honestly, I really don't like using generative
-            techniques unless it's painfully necessary. This meant that
-            run-times wouldn't be the fastest, but we were fine with that!
+            I used to be a coverist, and so I wanted to spin up something small
+            that could serve as a tool for all things musical and k-pop. For
+            this project, I heavily prioritized tasks that weren’t just wrappers
+            for an LLM, and I honestly really don’t like using generative
+            techniques unless painfully necessary. This did mean that run-times
+            wouldn’t be the fastest, but we were fine with that!
           </p>
 
           <p>
             <em>
               Disclaimer: None of the artifacts from the following methods were
               used for commercial purposes; this was solely for personal use!
-              Additionally, I won't really be discussing code specifics, but
-              rather the important design choices.
+              Additionally, I don’t really be discuss code specifics, but rather
+              important design choices.
             </em>
           </p>
 
@@ -163,8 +163,8 @@ export default function Pingu() {
           <p>
             This feature, while not strictly necessary, takes inspiration from
             anime bots like Mudae and K-pop photocard collection bots like
-            Gyuvin. I wanted an easy way to search for photos right in the
-            chat, just as you can with GIFs.
+            Gyuvin. I wanted an easy way to search for photos right in the chat,
+            just as you can with GIFs.
           </p>
 
           <p>
@@ -202,8 +202,8 @@ export default function Pingu() {
           </p>
 
           <p>
-            The most reliable way to maintain a long-lasting video-to-audio
-            tool is to use command-line tools. I used the <code>yt_dlp</code>{" "}
+            The most reliable way to maintain a long-lasting video-to-audio tool
+            is to use command-line tools. I used the <code>yt_dlp</code>{" "}
             library. It works similarly to the Pinterest scraper: the user
             provides the link (<code>url</code>) and the desired filename (
             <code>name</code>). These are formatted into a JSON-like
@@ -215,22 +215,20 @@ export default function Pingu() {
           <h3>Vocal Remover</h3>
 
           <p>
-            Finally, I used the Spleeter library released by Deezer
-            (pre-trained in TensorFlow). The user provides an audio file (or
-            can continue with the one generated in the previous step) to receive
-            vocal and instrumental stems. This reduces dependency on third-party
-            tools like BandLab's splitter and keeps the workflow right inside
-            Discord.
+            Finally, I used the Spleeter library released by Deezer (pre-trained
+            in TensorFlow). The user provides an audio file (or can continue
+            with the one generated in the previous step) to receive vocal and
+            instrumental stems. This reduces dependency on third-party tools
+            like BandLab's splitter and keeps the workflow right inside Discord.
           </p>
 
           <p>And that's it! 🐧</p>
 
           <img
-              src={`${process.env.NODE_ENV === "production" ? "/sandbox" : ""}/spleeter.png`}
-              alt="pingu when it's done splitting an audio into vocal and instrumental stems"
-              className="fractal-image"
+            src={`${process.env.NODE_ENV === "production" ? "/sandbox" : ""}/spleeter.png`}
+            alt="pingu when it's done splitting an audio into vocal and instrumental stems"
+            className="fractal-image"
           />
-
         </div>
       </main>
     </>
