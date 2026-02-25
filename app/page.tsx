@@ -88,6 +88,14 @@ export default function Home() {
               href="/division_zero"
             />
             <Card
+              title="building pingu"
+              subtitle="blog"
+              description="pingu always sleepy"
+              isLive={true}
+              statusLabel="Active"
+              href="/pingu"
+            />
+            <Card
               title="the digital panopticon"
               subtitle="blog"
               description="someone's watching you"
