@@ -54,7 +54,7 @@ export default function duck() {
   const [won, setWon] = useState(false);
   const [screen, setScreen] = useState<"splash" | "game">("splash");
   const startedRef = useRef(false);
-  const animRef = useRef<number>();
+  const animRef = useRef<number | undefined>(undefined);
   const frameRef = useRef(0);
 
   function resetGame() {
