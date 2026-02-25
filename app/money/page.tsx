@@ -40,7 +40,8 @@ export default function Money() {
       height: "auto",
       marginTop: "100px",
     }}>
-      <audio ref={audioRef} src="/coin.mp3" />
+      <audio ref={audioRef} src={`${process.env.NODE_ENV === 'production' ? '/sandbox' : ''}/coin.mp3`} />
+
 
       <h1 style={{ margin: 0, fontSize: "2rem" }}>💰 Make Money</h1>
       <p style={{ maxWidth: "470px", textAlign: "center" }}>

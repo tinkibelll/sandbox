@@ -154,10 +154,11 @@ export default function Home() {
         </li>
 
         <img
-          src="/sierpinski.png"
+          src={`${process.env.NODE_ENV === "production" ? "/sandbox" : ""}/sierpinski.png`}
           alt="depiction of the sierpinski triangle with different values of size n"
           style={{ width: "750px", marginTop: "20px" }}
         />
+
         <p>
           <small>
             Martínez-Cruz, M.-Á., Patiño-Ortiz, J., Patiño-Ortiz, M., &
