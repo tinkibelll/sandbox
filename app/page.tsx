@@ -67,7 +67,7 @@ export default function Home() {
           href="/money"
         />
         <Card
-          title="facinating fractals"
+          title="fascinating fractals"
           subtitle="three.js"
           description="my strange addiction"
           isLive={false}
