@@ -122,6 +122,14 @@ export default function Home() {
             }}
           >
             <Card
+              title="exoplanet explorer"
+              subtitle="nasa"
+              description="so out of this world"
+              isLive={true}
+              statusLabel="Active"
+              href="https://exoplanet-explorer-574ed90bf59b.herokuapp.com/"
+            />
+            <Card
               title="life of a duck"
               subtitle="vanilla"
               description="mama duck lost her children"
