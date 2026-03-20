@@ -27,7 +27,40 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-LDEGMPN6R0');
+
+            async function sendEnhancedData() {
+              // 1. Basic Info
+              const userHour = new Date().getHours();
+              const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+              const orientation = window.innerHeight > window.innerWidth ? 'portrait' : 'landscape';
+
+              // 2. Battery Info (Safe Check)
+              let batteryLevel = "restricted";
+              let isCharging = "unknown";
+              if ('getBattery' in navigator) {
+                try {
+                  const battery = await navigator.getBattery();
+                  batteryLevel = Math.round(battery.level * 100) + "%";
+                  isCharging = battery.charging ? "yes" : "no";
+                } catch (e) { /* ignored */ }
+              }
+
+              // 3. Connection Info
+              const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+              const connectionType = conn ? conn.effectiveType : "unknown";
+
+              // Send to GA4
+              gtag('config', 'G-LDEGMPN6R0', {
+                'user_local_hour': userHour,
+                'display_mode': isDarkMode ? 'dark' : 'light',
+                'device_orientation': orientation,
+                'battery_status': batteryLevel,
+                'is_charging': isCharging,
+                'connection_speed': connectionType
+              });
+            }
+
+            sendEnhancedData();
           `}
         </Script>
       </body>
