@@ -65,7 +65,7 @@ export default function Home() {
           >
             <Card
               title="zen"
-              subtitle="dsp"
+              subtitle="tool (mobile-friendly)"
               description="huh what's white noise"
               isLive={true}
               statusLabel="Active"
@@ -95,62 +95,13 @@ export default function Home() {
               statusLabel="Active"
               href="/pingu"
             />
-          </div>
-        </div>
-
-        {/* Brainrot */}
-        <div>
-          <p
-            style={{
-              fontSize: "0.7rem",
-              color: "#94a3b8",
-              textTransform: "uppercase",
-              letterSpacing: "0.1em",
-              marginBottom: "0.75rem",
-              marginTop: 0,
-            }}
-          >
-            Brainrot (Desktop Only)
-          </p>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns:
-                "repeat(auto-fill, minmax(min(320px, 100%), 1fr))",
-              rowGap: "1.5rem",
-              columnGap: "1rem",
-            }}
-          >
             <Card
               title="exoplanet explorer"
-              subtitle="nasa"
+              subtitle="tool (desktop-only)"
               description="so out of this world"
               isLive={true}
               statusLabel="Active"
               href="https://exoplanet-explorer-574ed90bf59b.herokuapp.com/"
-            />
-            <Card
-              title="life of a duck"
-              subtitle="vanilla"
-              description="mama duck lost her children"
-              isLive={true}
-              statusLabel="Active"
-              href="/duck"
-            />
-            <Card
-              title="make money!"
-              subtitle="vanilla"
-              description="i am not a rich man"
-              isLive={true}
-              statusLabel="Active"
-              href="/money"
-            />
-            <Card
-              title="some sort of visualizer"
-              subtitle="three.js/a-frame"
-              description="idrk yet lol"
-              isLive={false}
-              statusLabel="Coming Soon"
             />
           </div>
         </div>
