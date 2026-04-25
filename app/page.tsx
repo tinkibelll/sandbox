@@ -1,8 +1,15 @@
 import Link from "next/link";
 import Card from "./components/card";
 import "./extras.css";
+import { execSync } from "child_process";
+import LocalTime from "./components/LocalTime";
 
 export default function Home() {
+  const lastUpdated = execSync(
+    "git log -1 --format=%cd --date=format:'%B %d, %Y'",
+  )
+    .toString()
+    .trim();
   return (
     <main
       style={{
@@ -127,6 +134,9 @@ export default function Home() {
           neal.fun
         </a>
         ; made with &lt;3
+      </p>
+      <p style={{ fontSize: "0.75rem", color: "#94a3b8", marginTop: "0.25rem" }}>
+        last updated: {lastUpdated} · <LocalTime />
       </p>
     </main>
   );
