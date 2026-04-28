@@ -80,10 +80,10 @@ export default function Home() {
             />
             <Card
               title="imaginary colors"
-              subtitle="coming soon"
+              subtitle="blog"
               description="what if we just tired out the brain?"
               isLive={true}
-              statusLabel="Active"
+              statusLabel="Coming Soon"
               href="/imaginary_colors"
             />
             <Card
