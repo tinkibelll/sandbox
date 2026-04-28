@@ -79,6 +79,14 @@ export default function Home() {
               href="/zen"
             />
             <Card
+              title="imaginary colors"
+              subtitle="coming soon"
+              description="what if we just tired out the brain?"
+              isLive={true}
+              statusLabel="Active"
+              href="/imaginary_colors"
+            />
+            <Card
               title="fascinating fractals"
               subtitle="blog"
               description="my strange addiction"
