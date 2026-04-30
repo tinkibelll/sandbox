@@ -3,7 +3,7 @@
 3:I[37457,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"default"]
 4:I[79520,["/sandbox/_next/static/chunks/744355e03808d4c7.js"],""]
 8:I[68027,[],"default"]
-:HL["/sandbox/_next/static/chunks/14df56ad68f351c2.css","style"]
+:HL["/sandbox/_next/static/chunks/06f6c092db8bee26.css","style"]
 :HL["/sandbox/_next/static/media/07454f8ad8aaac57-s.p.fc65572f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/sandbox/_next/static/chunks/0918b76712679407.css","style"]
 :HL["/sandbox/_next/static/chunks/ad663930e793235e.css","style"]
@@ -45,11 +45,11 @@
             }
 
             sendEnhancedData();
-          0:{"P":null,"b":"iX-PJNwVQYbp9KMfovJrq","c":["","imaginary_colors",""],"q":"","i":false,"f":[[["",{"children":["imaginary_colors",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/14df56ad68f351c2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/sandbox/_next/static/chunks/744355e03808d4c7.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"nunito_556bb9a9-module___aXp9W__className","children":["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LDEGMPN6R0","strategy":"afterInteractive"}],["$","$L4",null,{"id":"google-analytics","strategy":"afterInteractive","children":"$5"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L6",{},null,false,false]},null,false,false]},null,false,false],"$L7",false]],"m":"$undefined","G":["$8",[]],"S":true}
+          0:{"P":null,"b":"wxYSXQZDsxzUL_nG5X728","c":["","imaginary_colors",""],"q":"","i":false,"f":[[["",{"children":["imaginary_colors",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/06f6c092db8bee26.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/sandbox/_next/static/chunks/744355e03808d4c7.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"nunito_556bb9a9-module___aXp9W__className","children":["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LDEGMPN6R0","strategy":"afterInteractive"}],["$","$L4",null,{"id":"google-analytics","strategy":"afterInteractive","children":"$5"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L6",{},null,false,false]},null,false,false]},null,false,false],"$L7",false]],"m":"$undefined","G":["$8",[]],"S":true}
 e:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"ViewportBoundary"]
 10:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"MetadataBoundary"]
 11:"$Sreact.suspense"
-9:T197a,
+9:T1ac6,
         .page-main {
           box-sizing: border-box;
           background-color: #212121;
@@ -308,18 +308,33 @@ e:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"ViewportBoundary
 
         /* --- Mobile Responsive (Chimerical Grid) --- */
         @media (max-width: 650px) {
-          .chimerical-grid {
-            grid-template-columns: repeat(3, 1fr);
-            max-width: 100%;
-            gap: 1rem;
-          }
-          .demo-label {
-            grid-column: span 3;
-            text-align: center;
-            margin-bottom: 2rem;
-            padding: 0 1rem;
-          }
-        }
+  .chimerical-grid {
+    /* Use 1fr to let boxes shrink, but cap the min size so they stay visible */
+    grid-template-columns: repeat(3, minmax(60px, 1fr)); 
+    max-width: 100%;
+    gap: 0.5rem; /* Tighter gaps for small screens */
+    margin: 1rem auto;
+  }
+
+  /* Make sure the header text is tiny and wraps on mobile */
+  .chimerical-grid .small-caption {
+    font-size: 0.65rem; 
+    min-height: auto;
+    margin-bottom: 5px;
+  }
+
+  .demo-label {
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  /* Ensure the boxes themselves don't break the container */
+  .demo-box {
+    width: 100%;
+  }
+}
       6:["$","$1","c",{"children":[[["$","style",null,{"children":"$9"}],"$La"],["$Lb","$Lc"],"$Ld"]}]
 7:["$","$1","h",{"children":[null,["$","$Le",null,{"children":"$Lf"}],["$","div",null,{"hidden":true,"children":["$","$L10",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
 21:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
@@ -342,7 +357,7 @@ d:["$","$L21",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","ch
 1c:["$","p",null,{"children":[["$","strong",null,{"children":"Chimerical colors"}]," are a class of imaginary colors that make use of the opponent process theory. They are not colors we can see in nature or artificially generate to see in any one sitting. They are temporarily perceived by looking steadily at a strong color to tire out certain cone cells and then looking at another color (namely a white or black background to neutralize)."]}]
 1d:["$","p",null,{"style":{"marginBottom":"0px"},"children":"What we then start to see is a “seemingly new” saturated area, which is an afterimage of the complementary color, and thus is what forms the imaginary color!"}]
 1e:["$","div",null,{"className":"chimerical-grid","children":[["$","div",null,{"className":"small-caption","children":"Fatigue Template"}],["$","div",null,{"className":"small-caption","children":"Target Field"}],["$","div",null,{"className":"small-caption","children":"Approx. Rendering"}],["$","div",null,{}],["$","div",null,{"className":"demo-box","children":[["$","div",null,{"className":"circle f-yellow"}],["$","span",null,{"style":{"position":"absolute"},"children":"×"}]]}],["$","div",null,{"className":"demo-box t-black","children":["$","span",null,{"children":"×"}]}],["$","div",null,{"className":"demo-box r-stygian","children":["$","div",null,{"className":"circle c-stygian"}]}],["$","div",null,{"className":"demo-label","children":[["$","strong",null,{"children":"Stygian Blue"}],"Deep blue and black simultaneously."]}],["$","div",null,{"className":"demo-box","children":[["$","div",null,{"className":"circle f-green"}],["$","span",null,{"style":{"position":"absolute"},"children":"×"}]]}],["$","div",null,{"className":"demo-box t-white","children":["$","span",null,{"children":"×"}]}],["$","div",null,{"className":"demo-box r-luminous","children":["$","div",null,{"className":"circle c-luminous"}]}],["$","div",null,{"className":"demo-label","children":[["$","strong",null,{"children":"Self-Luminous Red"}],"Redder and brighter than white."]}],["$","div",null,{"className":"demo-box","children":[["$","div",null,{"className":"circle f-cyan"}],["$","span",null,{"style":{"position":"absolute"},"children":"×"}]]}],["$","div",null,{"className":"demo-box t-orange","children":["$","span",null,{"children":"×"}]}],["$","div",null,{"className":"demo-box r-hyper","children":["$","div",null,{"className":"circle c-hyper"}]}],["$","div",null,{"className":"demo-label","children":[["$","strong",null,{"children":"Hyperbolic Orange"}],"More than 100% color saturation."]}]]}]
-1f:["$","p",null,{"children":["Let me redirect you to the video that inspired this! Try it for yourself and see which ones you can see; for me, ",["$","strong",null,{"children":"Stygian Blue"}]," was the easiest, while ",["$","strong",null,{"children":"Hyperbolic Orange"}]," and ",["$","strong",null,{"children":"Self-Luminous Red"}]," took a bit more effort. You might also notice that you start to see the color at the edges of the square before the timer even runs out - that’s your eyes moving! But yes, you are seeing the imaginary color."]}]
+1f:["$","p",null,{"children":["Let me redirect you to the video that inspired this! Try it for yourself and see which ones you can see; for me,"," ",["$","strong",null,{"children":"Stygian Blue"}]," was the easiest, while"," ",["$","strong",null,{"children":"Hyperbolic Orange"}]," and"," ",["$","strong",null,{"children":"Self-Luminous Red"}]," took a bit more effort. You might also notice that you start to see the color at the edges of the square before the timer even runs out - that’s your eyes moving! But yes, you are seeing the imaginary color."]}]
 20:["$","div",null,{"className":"responsive-iframe-wrapper","children":["$","iframe",null,{"src":"https://www.youtube.com/embed/370vSCFiyU0?start=73","title":"YouTube video player","allowFullScreen":true}]}]
 f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 23:I[27201,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"IconMark"]
