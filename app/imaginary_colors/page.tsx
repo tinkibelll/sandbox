@@ -264,27 +264,48 @@ export default function Home() {
           }
         }
 
-       @media (max-width: 400px) {
+   @media (max-width: 400px) {
   .chimerical-grid {
-    /* Switch to 3 columns to match the 3 boxes */
+    /* 1. Force 3 equal columns that cannot exceed screen width */
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 0.3rem;
-    margin: 1rem auto;
+    gap: 0.4rem; /* Tight gap to save space */
+    margin: 1rem 0;
     width: 100%;
     max-width: 100%;
   }
 
-  /* Force the label to take up its own full row */
-  .demo-label {
-    grid-column: 1 / -1; /* This spans all available columns, regardless of count */
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem; 
+  /* 2. Scale down the boxes and their contents */
+  .demo-box {
+    width: 100%;
+    min-width: 0; /* Allows box to be smaller than its content */
   }
 
+  .demo-box span {
+    font-size: 0.9rem !important; /* Smaller "+" or characters inside */
+  }
+
+  .circle {
+    width: 45% !important; /* Shrink the inner circles slightly */
+    height: 45% !important;
+  }
+
+  /* 3. Scale down all text */
   .chimerical-grid .small-caption {
-    font-size: 0.65rem;
-    min-height: 40px; /* Keeps captions aligned even if one wraps to 2 lines */
+    font-size: 0.6rem; /* Micro-text for headers */
+    line-height: 1.1;
+    min-height: 30px;
+  }
+
+  .demo-label {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.75rem; /* Smaller description text */
+  }
+
+  .demo-label strong {
+    font-size: 0.8rem; /* Smaller bold titles */
   }
 }
 
