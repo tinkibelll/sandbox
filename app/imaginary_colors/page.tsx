@@ -264,34 +264,27 @@ export default function Home() {
           }
         }
 
-        /* --- Mobile Responsive (Chimerical Grid) --- */
-        @media (max-width: 650px) {
+       @media (max-width: 600px) {
   .chimerical-grid {
-    /* Use 1fr to let boxes shrink, but cap the min size so they stay visible */
-    grid-template-columns: repeat(3, minmax(60px, 1fr)); 
-    max-width: 100%;
-    gap: 0.4rem; /* Tighter gaps for small screens */
+    /* Switch to 3 columns to match the 3 boxes */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0.5rem;
     margin: 1rem auto;
   }
 
-  /* Make sure the header text is tiny and wraps on mobile */
-  .chimerical-grid .small-caption {
-    font-size: 0.65rem; 
-    min-height: auto;
-    margin-bottom: 5px;
-  }
-
+  /* Force the label to take up its own full row */
   .demo-label {
-    grid-column: span 3;
+    grid-column: 1 / -1; /* This spans all available columns, regardless of count */
     text-align: center;
-    margin-bottom: 1.5rem;
-    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem; 
   }
 
-  /* Ensure the boxes themselves don't break the container */
-  .demo-box {
-    width: 100%;
+  .chimerical-grid .small-caption {
+    font-size: 0.65rem;
+    min-height: 40px; /* Keeps captions aligned even if one wraps to 2 lines */
   }
+}
 }
       `}</style>
 
