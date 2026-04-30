@@ -270,7 +270,7 @@ export default function Home() {
     /* Use 1fr to let boxes shrink, but cap the min size so they stay visible */
     grid-template-columns: repeat(3, minmax(60px, 1fr)); 
     max-width: 100%;
-    gap: 0.5rem; /* Tighter gaps for small screens */
+    gap: 0.4rem; /* Tighter gaps for small screens */
     margin: 1rem auto;
   }
 
