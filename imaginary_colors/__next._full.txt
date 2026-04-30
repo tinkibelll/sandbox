@@ -3,7 +3,7 @@
 3:I[37457,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"default"]
 4:I[79520,["/sandbox/_next/static/chunks/744355e03808d4c7.js"],""]
 8:I[68027,[],"default"]
-:HL["/sandbox/_next/static/chunks/06f6c092db8bee26.css","style"]
+:HL["/sandbox/_next/static/chunks/14df56ad68f351c2.css","style"]
 :HL["/sandbox/_next/static/media/07454f8ad8aaac57-s.p.fc65572f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/sandbox/_next/static/chunks/0918b76712679407.css","style"]
 :HL["/sandbox/_next/static/chunks/ad663930e793235e.css","style"]
@@ -45,11 +45,11 @@
             }
 
             sendEnhancedData();
-          0:{"P":null,"b":"rfdyWVjGXrDuxRnM_89AY","c":["","imaginary_colors",""],"q":"","i":false,"f":[[["",{"children":["imaginary_colors",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/06f6c092db8bee26.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/sandbox/_next/static/chunks/744355e03808d4c7.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"nunito_556bb9a9-module___aXp9W__className","children":["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LDEGMPN6R0","strategy":"afterInteractive"}],["$","$L4",null,{"id":"google-analytics","strategy":"afterInteractive","children":"$5"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L6",{},null,false,false]},null,false,false]},null,false,false],"$L7",false]],"m":"$undefined","G":["$8",[]],"S":true}
+          0:{"P":null,"b":"W38hn0AkX2TK9xC2sNxLN","c":["","imaginary_colors",""],"q":"","i":false,"f":[[["",{"children":["imaginary_colors",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/14df56ad68f351c2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/sandbox/_next/static/chunks/744355e03808d4c7.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"nunito_556bb9a9-module___aXp9W__className","children":["$","body",null,{"children":[["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L4",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LDEGMPN6R0","strategy":"afterInteractive"}],["$","$L4",null,{"id":"google-analytics","strategy":"afterInteractive","children":"$5"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L6",{},null,false,false]},null,false,false]},null,false,false],"$L7",false]],"m":"$undefined","G":["$8",[]],"S":true}
 e:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"ViewportBoundary"]
 10:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"MetadataBoundary"]
 11:"$Sreact.suspense"
-9:T1ac6,
+9:T1a1f,
         .page-main {
           box-sizing: border-box;
           background-color: #212121;
@@ -306,34 +306,27 @@ e:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"ViewportBoundary
           }
         }
 
-        /* --- Mobile Responsive (Chimerical Grid) --- */
-        @media (max-width: 650px) {
+       @media (max-width: 600px) {
   .chimerical-grid {
-    /* Use 1fr to let boxes shrink, but cap the min size so they stay visible */
-    grid-template-columns: repeat(3, minmax(60px, 1fr)); 
-    max-width: 100%;
-    gap: 0.4rem; /* Tighter gaps for small screens */
+    /* Switch to 3 columns to match the 3 boxes */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0.5rem;
     margin: 1rem auto;
   }
 
-  /* Make sure the header text is tiny and wraps on mobile */
-  .chimerical-grid .small-caption {
-    font-size: 0.65rem; 
-    min-height: auto;
-    margin-bottom: 5px;
-  }
-
+  /* Force the label to take up its own full row */
   .demo-label {
-    grid-column: span 3;
+    grid-column: 1 / -1; /* This spans all available columns, regardless of count */
     text-align: center;
-    margin-bottom: 1.5rem;
-    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem; 
   }
 
-  /* Ensure the boxes themselves don't break the container */
-  .demo-box {
-    width: 100%;
+  .chimerical-grid .small-caption {
+    font-size: 0.65rem;
+    min-height: 40px; /* Keeps captions aligned even if one wraps to 2 lines */
   }
+}
 }
       6:["$","$1","c",{"children":[[["$","style",null,{"children":"$9"}],"$La"],["$Lb","$Lc"],"$Ld"]}]
 7:["$","$1","h",{"children":[null,["$","$Le",null,{"children":"$Lf"}],["$","div",null,{"hidden":true,"children":["$","$L10",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":"$L12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
