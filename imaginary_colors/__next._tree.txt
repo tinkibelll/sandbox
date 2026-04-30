@@ -5,4 +5,4 @@
 :HL["/sandbox/cones_def.png","image"]
 :HL["/sandbox/spectrum.png","image"]
 :HL["/sandbox/rgb_led.gif","image"]
-0:{"buildId":"RacuPoBSnYqLw7PxSN9p3","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"imaginary_colors","paramType":null,"paramKey":"imaginary_colors","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"iX-PJNwVQYbp9KMfovJrq","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"imaginary_colors","paramType":null,"paramKey":"imaginary_colors","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
