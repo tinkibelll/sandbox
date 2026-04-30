@@ -266,18 +266,33 @@ export default function Home() {
 
         /* --- Mobile Responsive (Chimerical Grid) --- */
         @media (max-width: 650px) {
-          .chimerical-grid {
-            grid-template-columns: repeat(3, 1fr);
-            max-width: 100%;
-            gap: 1rem;
-          }
-          .demo-label {
-            grid-column: span 3;
-            text-align: center;
-            margin-bottom: 2rem;
-            padding: 0 1rem;
-          }
-        }
+  .chimerical-grid {
+    /* Use 1fr to let boxes shrink, but cap the min size so they stay visible */
+    grid-template-columns: repeat(3, minmax(60px, 1fr)); 
+    max-width: 100%;
+    gap: 0.5rem; /* Tighter gaps for small screens */
+    margin: 1rem auto;
+  }
+
+  /* Make sure the header text is tiny and wraps on mobile */
+  .chimerical-grid .small-caption {
+    font-size: 0.65rem; 
+    min-height: auto;
+    margin-bottom: 5px;
+  }
+
+  .demo-label {
+    grid-column: span 3;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  /* Ensure the boxes themselves don't break the container */
+  .demo-box {
+    width: 100%;
+  }
+}
       `}</style>
 
       <main className="page-main">
@@ -462,7 +477,7 @@ export default function Home() {
             another color (namely a white or black background to neutralize).
           </p>
 
-          <p style={{marginBottom: "0px"}}>
+          <p style={{ marginBottom: "0px" }}>
             What we then start to see is a “seemingly new” saturated area, which
             is an afterimage of the complementary color, and thus is what forms
             the imaginary color!
@@ -522,12 +537,13 @@ export default function Home() {
 
           <p>
             Let me redirect you to the video that inspired this! Try it for
-            yourself and see which ones you can see; for me, <strong>Stygian Blue</strong> was
-            the easiest, while <strong>Hyperbolic Orange</strong> and <strong>Self-Luminous Red</strong> took a
-            bit more effort. You might also notice that you start to see the
-            color at the edges of the square before the timer even runs out -
-            that’s your eyes moving! But yes, you are seeing the imaginary
-            color.
+            yourself and see which ones you can see; for me,{" "}
+            <strong>Stygian Blue</strong> was the easiest, while{" "}
+            <strong>Hyperbolic Orange</strong> and{" "}
+            <strong>Self-Luminous Red</strong> took a bit more effort. You might
+            also notice that you start to see the color at the edges of the
+            square before the timer even runs out - that’s your eyes moving! But
+            yes, you are seeing the imaginary color.
           </p>
 
           <div className="responsive-iframe-wrapper">

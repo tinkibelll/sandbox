@@ -83,7 +83,7 @@ export default function Home() {
               subtitle="blog"
               description="what if we just tired out the brain?"
               isLive={true}
-              statusLabel="Coming Soon"
+              statusLabel="Active"
               href="/imaginary_colors"
             />
             <Card
