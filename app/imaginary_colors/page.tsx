@@ -311,8 +311,9 @@ export default function Home() {
             width: 100%;
           }
 
-          /* Hide the 4th header cell (label column) on mobile */
-          .chimerical-grid .small-caption:nth-child(4) {
+          /* Hide the 4th header cell and empty spacer (label column) on mobile */
+          .chimerical-grid .small-caption:nth-child(4),
+          .chimerical-grid > div:empty {
             display: none;
           }
 
