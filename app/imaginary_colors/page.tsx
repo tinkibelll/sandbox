@@ -382,11 +382,10 @@ export default function Home() {
             impossible to perceive a "reddish-green”.
           </p>
 
-          <h3>Digital Representation of Color</h3>
-
           <div className="flex-wrap-container">
             <div>
-              <p style={{ margin: 0 }}>
+              <h3>Digital Representation of Color</h3>
+              <p>
                 This is where the earlier mention of RGB comes into play. Each
                 color channel is represented by a value from 0-255, and specific
                 colors are then formed by mixing different combinations for
@@ -453,7 +452,7 @@ export default function Home() {
             </tbody>
           </table>
 
-          <h3>Imaginary Colorsz1</h3>
+          <h3>Imaginary Colors</h3>
           <p>
             <strong>Chimerical colors</strong> are a class of imaginary colors
             that make use of the opponent process theory. They are not colors we
@@ -463,7 +462,7 @@ export default function Home() {
             another color (namely a white or black background to neutralize).
           </p>
 
-          <p>
+          <p style={{marginBottom: "0px"}}>
             What we then start to see is a “seemingly new” saturated area, which
             is an afterimage of the complementary color, and thus is what forms
             the imaginary color!
