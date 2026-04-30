@@ -268,8 +268,10 @@ export default function Home() {
   .chimerical-grid {
     /* Switch to 3 columns to match the 3 boxes */
     grid-template-columns: repeat(3, 1fr); 
-    gap: 0.5rem;
+    gap: 0.3rem;
     margin: 1rem auto;
+    width: 100%;
+    max-width: 100%;
   }
 
   /* Force the label to take up its own full row */
