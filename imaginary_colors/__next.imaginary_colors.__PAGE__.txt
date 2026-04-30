@@ -1,19 +1,300 @@
 1:"$Sreact.fragment"
-d:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
-e:"$Sreact.suspense"
-:HL["/sandbox/cie_1931.png","image"]
+16:I[97367,["/sandbox/_next/static/chunks/2f236954d6a65e12.js"],"OutletBoundary"]
+17:"$Sreact.suspense"
 :HL["/sandbox/_next/static/chunks/0918b76712679407.css","style"]
 :HL["/sandbox/_next/static/chunks/ad663930e793235e.css","style"]
-0:{"buildId":"dyjgfCW4EsAT9VqOL3XOw","rsc":["$","$1","c",{"children":[[["$","style",null,{"children":"\n        .page-main {\n          box-sizing: border-box;\n          background-color: #212121;\n          min-height: 100vh;\n          color: #ededed;\n          padding: 2rem 1.25rem;\n        }\n\n        .content-wrapper {\n          max-width: 860px;\n          margin: 0 auto;\n          width: 100%;\n        }\n\n        .article-image {\n          width: 100%;\n          max-width: 750px;\n          height: auto;\n          margin: 1.5rem 0;\n          display: block;\n          border-radius: 4px;\n        }\n\n        .cone-list {\n          list-style-type: none;\n          padding-left: 0;\n          margin: 1.5rem 0;\n        }\n\n        .cone-list li {\n          margin-bottom: 0.75rem;\n          padding-left: 1rem;\n          border-left: 3px solid #4a4a4a;\n        }\n\n        @media (min-width: 640px) {\n          .page-main {\n            padding: 3rem 2rem;\n          }\n        }\n\n        @media (min-width: 1024px) {\n          .page-main {\n            padding: 4rem;\n          }\n        }\n      "}],["$","main",null,{"className":"page-main","children":["$","div",null,{"className":"content-wrapper","children":[["$","h2",null,{"children":"Colors Beyond the Looking Glass - An Introduction to Imaginary Colors"}],["$","h3",null,{"children":"Introduction"}],["$","p",null,{"children":"A staple for many, one of the first exposures we have to the principles of color composition comes from Crayola crayons. The primary colors, some odd-form variants of red, blue, and yellow: mix them together, use white and black as needed, and you can reproduce any color you want!"}],["$","p",null,{"children":"Naturally, we also come into contact with the colors of light. Drop yellow and replace it with green; this is what powers displays, Newton’s prism, and the way we perceive color visually."}],["$","h3",null,{"children":"The Visual Spectrum"}],["$","p",null,{"children":"Our eyes have three sets of cones for perceiving different wavelengths of light, following the RGB (Red, Green, Blue) format. It is the combination of how much each of these is stimulated that determines the color your brain perceives. There is overlap in the ranges of these cones, however."}],["$","ul",null,{"className":"cone-list","children":[["$","li",null,{"children":[["$","strong",null,{"children":"S-Cones (Short):"}]," Sensitive to blue light (peak ",["$","span",null,{"data-testid":"react-katex","dangerouslySetInnerHTML":{"__html":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∼</mo><mn>440</mn></mrow><annotation encoding=\"application/x-tex\">\\sim 440</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">∼</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">440</span></span></span></span>"}}]," nm)"]}],["$","li",null,{"children":[["$","strong",null,{"children":"M-Cones (Medium):"}]," Sensitive to green light (peak ",["$","span",null,{"data-testid":"react-katex","dangerouslySetInnerHTML":{"__html":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∼</mo><mn>540</mn></mrow><annotation encoding=\"application/x-tex\">\\sim 540</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">∼</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">540</span></span></span></span>"}}]," nm)"]}],"$L2"]}],"$L3","$L4","$L5","$L6","$L7","$L8","$L9"]}]}]],["$La","$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
-2:["$","li",null,{"children":[["$","strong",null,{"children":"L-Cones (Long):"}]," Sensitive to red light (peak ",["$","span",null,{"data-testid":"react-katex","dangerouslySetInnerHTML":{"__html":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∼</mo><mn>570</mn></mrow><annotation encoding=\"application/x-tex\">\\sim 570</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">∼</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">570</span></span></span></span>"}}]," nm)"]}]
-3:["$","p",null,{"children":"The M & L cones have major overlap; as such, it is theorized that instead of looking at absolute values, the visual system turns to relative differences."}]
-4:["$","img",null,{"src":"/sandbox/cie_1931.png","alt":"CIE 1931 chromaticity diagram showing the visible color space","className":"article-image"}]
-5:["$","p",null,{"children":["$","em",null,{"children":"This is a sample of the color space that we may be able to see. (CIE 1931, chromaticity diagram)."}]}]
-6:["$","h3",null,{"children":"Opponent Processes"}]
-7:["$","p",null,{"children":["The ",["$","strong",null,{"children":"Color Opponent Process"}]," theory suggests that the human visual system interprets these cone signals in an antagonistic manner. Rather than processing each color independently, the brain records the differences between cone responses through three specific channels:"]}]
-8:["$","ul",null,{"children":[["$","li",null,{"children":[["$","strong",null,{"children":"Red vs. Green:"}]," Compares the L-cone and M-cone signals."]}],["$","li",null,{"children":[["$","strong",null,{"children":"Blue vs. Yellow:"}]," Compares the S-cone signal against a sum of the L and M signals."]}],["$","li",null,{"children":[["$","strong",null,{"children":"Black vs. White:"}]," Detects luminance and light-dark variation (achromatic)."]}]]}]
-9:["$","p",null,{"children":"Because these channels are antagonistic, the response to one color in a pair inhibits the response to the other. This explains why we can perceive a “blue-green”, but our brains find it physically impossible to perceive a \"reddish-green”."}]
-a:["$","link","0",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/0918b76712679407.css","precedence":"next"}]
-b:["$","link","1",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/ad663930e793235e.css","precedence":"next"}]
-c:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
-f:null
+:HL["/sandbox/cones_def.png","image"]
+:HL["/sandbox/spectrum.png","image"]
+:HL["/sandbox/rgb_led.gif","image"]
+2:T197a,
+        .page-main {
+          box-sizing: border-box;
+          background-color: #212121;
+          min-height: 100vh;
+          color: #ededed;
+          padding: 2rem 1.25rem;
+        }
+
+        .content-wrapper {
+          max-width: 860px;
+          margin: 0 auto;
+          width: 100%;
+        }
+
+        .image-row {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          margin: 2rem 0 0.5rem 0;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .img-container {
+          display: block;
+          max-width: 100%; 
+        }
+
+        .img-container img {
+          display: block;
+          height: auto;
+          width: 100%;
+          max-width: 400px;
+          border-radius: 4px;
+        }
+
+        .image-caption {
+          font-style: italic;
+          font-size: 0.9rem;
+          color: #b0b0b0;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+
+        .cone-list {
+          list-style-type: none;
+          padding-left: 0;
+          margin: 1.5rem 0;
+        }
+
+        .cone-list li {
+          margin-bottom: 0.75rem;
+          padding-left: 1rem;
+          border-left: 3px solid #4a4a4a;
+        }
+
+        .flex-wrap-container {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          margin-bottom: 2rem;
+          align-items: center;
+        }
+
+        .gif-column {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0;
+          flex-shrink: 0;
+        }
+
+        .wrapped-gif {
+          width: 100%;
+          max-width: 320px;
+          height: auto;
+          border-radius: 8px;
+        }
+
+        .small-caption {
+          font-style: italic;
+          font-size: 0.75rem;
+          color: #888;
+          margin-top: 0.5rem;
+          text-align: center;
+        }
+
+        .responsive-iframe-wrapper {
+          position: relative;
+          width: 100%;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+          border-radius: 8px;
+          margin-top: 1.5rem;
+          margin-bottom: 1rem;
+          background: #000;
+        }
+
+        .responsive-iframe-wrapper iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+
+        .rgb-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 2rem 0;
+          background-color: #2a2a2a;
+          border-radius: 8px;
+          overflow: hidden;
+          font-size: 0.95rem;
+        }
+
+        .rgb-table th, .rgb-table td {
+          padding: 1rem;
+          text-align: left;
+          border-bottom: 1px solid #3d3d3d;
+        }
+
+        .rgb-table th {
+          background-color: #333333;
+          color: #ffffff;
+          font-weight: 600;
+        }
+
+        .color-swatch {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin-right: 10px;
+          border-radius: 2px;
+          border: 1px solid #555;
+          vertical-align: middle;
+        }
+
+        /* --- Chimerical Demo Grid Styles --- */
+        .chimerical-grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(100px, 150px)) 1.8fr;
+          gap: 1.5rem;
+          margin: 3rem auto;
+          max-width: 800px;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .chimerical-grid .small-caption {
+          margin: 0;
+          line-height: 1.2;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 40px;
+        }
+
+        .demo-box {
+          aspect-ratio: 1 / 1;
+          background-color: #ccc;
+          border: 1px solid #000;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+
+        .demo-box span {
+          color: #000;
+          font-weight: 300;
+          font-size: 1.2rem;
+        }
+
+        .circle {
+          width: 55%;
+          height: 55%;
+          border-radius: 50%;
+        }
+
+        .f-yellow { background-color: #ffff00; }
+        .f-green  { background-color: #00ff00; }
+        .f-cyan   { background-color: #00ffff; }
+        .t-black  { background-color: #000; }
+        .t-black span { color: #fff; }
+        .t-white  { background-color: #fff; }
+        .t-orange { background-color: #ffa500; }
+        .r-stygian { background-color: #333; }
+        .c-stygian { background-color: #000044; }
+        .r-luminous { background-color: #ccc; }
+        .c-luminous { background-color: #ffcccc; box-shadow: 0 0 8px #fff; }
+        .r-hyper { background-color: #ffb347; }
+        .c-hyper { background-color: #ff8c00; }
+
+        .demo-label {
+          font-size: 0.85rem;
+          line-height: 1.3;
+          color: #ededed;
+          text-align: left;
+        }
+
+        .demo-label strong {
+          display: block;
+          text-transform: uppercase;
+          font-size: 0.9rem;
+          color: #fff;
+          margin-bottom: 2px;
+        }
+
+        /* --- Tablet/Desktop Media Queries --- */
+        @media (min-width: 768px) {
+          .flex-wrap-container {
+            flex-direction: row;
+            align-items: center; 
+            gap: 2rem;
+          }
+
+          .gif-column {
+            width: 260px;
+          }
+
+          .wrapped-gif {
+            width: 100%;
+            max-height: none;
+          }
+          
+          .page-main {
+            padding: 3rem 2rem;
+          }
+
+          .image-row {
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 2rem;
+          }
+
+          .img-container img {
+            width: auto;
+            height: 300px;
+            max-width: 100%;
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .page-main {
+            padding: 4rem;
+          }
+          .img-container img {
+            height: 350px;
+          }
+        }
+
+        /* --- Mobile Responsive (Chimerical Grid) --- */
+        @media (max-width: 650px) {
+          .chimerical-grid {
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 100%;
+            gap: 1rem;
+          }
+          .demo-label {
+            grid-column: span 3;
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 0 1rem;
+          }
+        }
+      0:{"buildId":"RacuPoBSnYqLw7PxSN9p3","rsc":["$","$1","c",{"children":[[["$","style",null,{"children":"$2"}],"$L3"],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+3:["$","main",null,{"className":"page-main","children":["$","div",null,{"className":"content-wrapper","children":[["$","h2",null,{"children":"Colors Beyond the Looking Glass - An Introduction to Imaginary Colors"}],["$","p",null,{"children":"A staple for many, one of the first exposures we have to the principles of color composition comes from Crayola crayons. The primary colors, some odd-form variants of red, blue, and yellow: mix them together, use white and black as needed, and you can reproduce any color you want!"}],["$","p",null,{"children":"Naturally, we also come into contact with the colors of light. Drop yellow and replace it with green; this is what powers displays, Newton’s prism, and the way we perceive color visually."}],["$","h3",null,{"children":"The Visual Spectrum"}],["$","p",null,{"children":"Our eyes have three sets of cones for perceiving different wavelengths of light, following the RGB (Red, Green, Blue) format. It is the combination of how much each of these is stimulated that determines the color your brain perceives. There is overlap in the ranges of these cones, however."}],["$","ul",null,{"className":"cone-list","children":[["$","li",null,{"children":[["$","strong",null,{"children":"S-Cones (Short):"}]," Sensitive to blue light (peak"," ",["$","span",null,{"data-testid":"react-katex","dangerouslySetInnerHTML":{"__html":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∼</mo><mn>440</mn></mrow><annotation encoding=\"application/x-tex\">\\sim 440</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">∼</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">440</span></span></span></span>"}}]," nm)"]}],["$","li",null,{"children":[["$","strong",null,{"children":"M-Cones (Medium):"}]," Sensitive to green light (peak"," ",["$","span",null,{"data-testid":"react-katex","dangerouslySetInnerHTML":{"__html":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∼</mo><mn>540</mn></mrow><annotation encoding=\"application/x-tex\">\\sim 540</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">∼</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">540</span></span></span></span>"}}]," nm)"]}],["$","li",null,{"children":[["$","strong",null,{"children":"L-Cones (Long):"}]," Sensitive to red light (peak"," ",["$","span",null,{"data-testid":"react-katex","dangerouslySetInnerHTML":{"__html":"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∼</mo><mn>570</mn></mrow><annotation encoding=\"application/x-tex\">\\sim 570</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">∼</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">570</span></span></span></span>"}}]," nm)"]}]]}],["$","p",null,{"children":"The M & L cones have major overlap; as such, it is theorized that instead of looking at absolute values, the visual system turns to relative differences."}],"$L7","$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15"]}]}]
+4:["$","link","0",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/0918b76712679407.css","precedence":"next"}]
+5:["$","link","1",{"rel":"stylesheet","href":"/sandbox/_next/static/chunks/ad663930e793235e.css","precedence":"next"}]
+6:["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+7:["$","div",null,{"className":"image-row","children":[["$","div",null,{"className":"img-container","children":["$","img",null,{"src":"/sandbox/cones_def.png","alt":"Diagram showing cone sensitivity overlap and definition"}]}],["$","div",null,{"className":"img-container","children":["$","img",null,{"src":"/sandbox/spectrum.png","alt":"Visual representation of the light spectrum"}]}]]}]
+8:["$","p",null,{"className":"image-caption","children":"This is a sample of the color space that we may be able to see (Right: CIE 1931, chromaticity diagram)."}]
+9:["$","h3",null,{"children":"Opponent Processes"}]
+a:["$","p",null,{"children":["The ",["$","strong",null,{"children":"Color Opponent Process"}]," theory suggests that the human visual system interprets these cone signals in an antagonistic manner. Rather than processing each color independently, the brain records the differences between cone responses through three specific channels:"]}]
+b:["$","ul",null,{"className":"cone-list","children":[["$","li",null,{"children":[["$","strong",null,{"children":"Red vs. Green:"}]," Compares the L-cone and M-cone signals."]}],["$","li",null,{"children":[["$","strong",null,{"children":"Blue vs. Yellow:"}]," Compares the S-cone signal against a sum of the L and M signals."]}],["$","li",null,{"children":[["$","strong",null,{"children":"Black vs. White:"}]," Detects luminance and light-dark variation (achromatic)."]}]]}]
+c:["$","p",null,{"children":"Because these channels are antagonistic, the response to one color in a pair inhibits the response to the other. This explains why we can perceive a “blue-green”, but our brains find it physically impossible to perceive a \"reddish-green”."}]
+d:["$","h3",null,{"children":"Digital Representation of Color"}]
+e:["$","div",null,{"className":"flex-wrap-container","children":[["$","div",null,{"children":["$","p",null,{"style":{"margin":0},"children":"This is where the earlier mention of RGB comes into play. Each color channel is represented by a value from 0-255, and specific colors are then formed by mixing different combinations for these values. By using something like an RGB LED, we can see a base-level example of what this looks like in the physical world. You can think of this LED as representing a single pixel on a phone screen."}]}],["$","figure",null,{"className":"gif-column","children":[["$","img",null,{"src":"/sandbox/rgb_led.gif","alt":"RGB LED","className":"wrapped-gif"}],["$","figcaption",null,{"className":"small-caption","children":"looking to replace with my own footage soon :)"}]]}]]}]
+f:["$","table",null,{"className":"rgb-table","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Color Name"}],["$","th",null,{"children":"RGB Triple"}],["$","th",null,{"children":"Result"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Red"}],["$","td",null,{"children":"(255, 0, 0)"}],["$","td",null,{"children":[["$","span",null,{"className":"color-swatch","style":{"backgroundColor":"#f00"}}],"Red"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Green"}],["$","td",null,{"children":"(0, 255, 0)"}],["$","td",null,{"children":[["$","span",null,{"className":"color-swatch","style":{"backgroundColor":"#0f0"}}],"Green"]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Blue"}],["$","td",null,{"children":"(0, 0, 255)"}],["$","td",null,{"children":[["$","span",null,{"className":"color-swatch","style":{"backgroundColor":"#00f"}}],"Blue"]}]]}]]}]]}]
+10:["$","h3",null,{"children":"Imaginary Colorsz1"}]
+11:["$","p",null,{"children":[["$","strong",null,{"children":"Chimerical colors"}]," are a class of imaginary colors that make use of the opponent process theory. They are not colors we can see in nature or artificially generate to see in any one sitting. They are temporarily perceived by looking steadily at a strong color to tire out certain cone cells and then looking at another color (namely a white or black background to neutralize)."]}]
+12:["$","p",null,{"children":"What we then start to see is a “seemingly new” saturated area, which is an afterimage of the complementary color, and thus is what forms the imaginary color!"}]
+13:["$","div",null,{"className":"chimerical-grid","children":[["$","div",null,{"className":"small-caption","children":"Fatigue Template"}],["$","div",null,{"className":"small-caption","children":"Target Field"}],["$","div",null,{"className":"small-caption","children":"Approx. Rendering"}],["$","div",null,{}],["$","div",null,{"className":"demo-box","children":[["$","div",null,{"className":"circle f-yellow"}],["$","span",null,{"style":{"position":"absolute"},"children":"×"}]]}],["$","div",null,{"className":"demo-box t-black","children":["$","span",null,{"children":"×"}]}],["$","div",null,{"className":"demo-box r-stygian","children":["$","div",null,{"className":"circle c-stygian"}]}],["$","div",null,{"className":"demo-label","children":[["$","strong",null,{"children":"Stygian Blue"}],"Deep blue and black simultaneously."]}],["$","div",null,{"className":"demo-box","children":[["$","div",null,{"className":"circle f-green"}],["$","span",null,{"style":{"position":"absolute"},"children":"×"}]]}],["$","div",null,{"className":"demo-box t-white","children":["$","span",null,{"children":"×"}]}],["$","div",null,{"className":"demo-box r-luminous","children":["$","div",null,{"className":"circle c-luminous"}]}],["$","div",null,{"className":"demo-label","children":[["$","strong",null,{"children":"Self-Luminous Red"}],"Redder and brighter than white."]}],["$","div",null,{"className":"demo-box","children":[["$","div",null,{"className":"circle f-cyan"}],["$","span",null,{"style":{"position":"absolute"},"children":"×"}]]}],["$","div",null,{"className":"demo-box t-orange","children":["$","span",null,{"children":"×"}]}],["$","div",null,{"className":"demo-box r-hyper","children":["$","div",null,{"className":"circle c-hyper"}]}],["$","div",null,{"className":"demo-label","children":[["$","strong",null,{"children":"Hyperbolic Orange"}],"More than 100% color saturation."]}]]}]
+14:["$","p",null,{"children":["Let me redirect you to the video that inspired this! Try it for yourself and see which ones you can see; for me, ",["$","strong",null,{"children":"Stygian Blue"}]," was the easiest, while ",["$","strong",null,{"children":"Hyperbolic Orange"}]," and ",["$","strong",null,{"children":"Self-Luminous Red"}]," took a bit more effort. You might also notice that you start to see the color at the edges of the square before the timer even runs out - that’s your eyes moving! But yes, you are seeing the imaginary color."]}]
+15:["$","div",null,{"className":"responsive-iframe-wrapper","children":["$","iframe",null,{"src":"https://www.youtube.com/embed/370vSCFiyU0?start=73","title":"YouTube video player","allowFullScreen":true}]}]
+18:null
