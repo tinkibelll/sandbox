@@ -264,10 +264,10 @@ export default function Home() {
           }
         }
 
-       @media (max-width: 600px) {
+       @media (max-width: 300px) {
   .chimerical-grid {
     /* Switch to 3 columns to match the 3 boxes */
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 0.3rem;
     margin: 1rem auto;
     width: 100%;
