@@ -285,7 +285,7 @@ export default function Home() {
     min-height: 40px; /* Keeps captions aligned even if one wraps to 2 lines */
   }
 }
-}
+
       `}</style>
 
       <main className="page-main">
