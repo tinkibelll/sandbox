@@ -84,7 +84,7 @@ export default function Home() {
               description="what if we just tired out the brain?"
               isLive={true}
               statusLabel="Coming Soon"
-              href=""
+              href="/imaginary_colors"
             />
             <Card
               title="fascinating fractals"
