@@ -34,7 +34,7 @@ export default function Home() {
 
         .img-container {
           display: block;
-          max-width: 100%; 
+          max-width: 100%;
         }
 
         .img-container img {
@@ -127,7 +127,8 @@ export default function Home() {
           font-size: 0.95rem;
         }
 
-        .rgb-table th, .rgb-table td {
+        .rgb-table th,
+        .rgb-table td {
           padding: 1rem;
           text-align: left;
           border-bottom: 1px solid #3d3d3d;
@@ -192,19 +193,19 @@ export default function Home() {
           border-radius: 50%;
         }
 
-        .f-yellow { background-color: #ffff00; }
-        .f-green  { background-color: #00ff00; }
-        .f-cyan   { background-color: #00ffff; }
-        .t-black  { background-color: #000; }
+        .f-yellow   { background-color: #ffff00; }
+        .f-green    { background-color: #00ff00; }
+        .f-cyan     { background-color: #00ffff; }
+        .t-black    { background-color: #000; }
         .t-black span { color: #fff; }
-        .t-white  { background-color: #fff; }
-        .t-orange { background-color: #ffa500; }
-        .r-stygian { background-color: #333; }
-        .c-stygian { background-color: #000044; }
+        .t-white    { background-color: #fff; }
+        .t-orange   { background-color: #ffa500; }
+        .r-stygian  { background-color: #333; }
+        .c-stygian  { background-color: #000044; }
         .r-luminous { background-color: #ccc; }
         .c-luminous { background-color: #ffcccc; box-shadow: 0 0 8px #fff; }
-        .r-hyper { background-color: #ffb347; }
-        .c-hyper { background-color: #ff8c00; }
+        .r-hyper    { background-color: #ffb347; }
+        .c-hyper    { background-color: #ff8c00; }
 
         .demo-label {
           font-size: 0.85rem;
@@ -225,7 +226,7 @@ export default function Home() {
         @media (min-width: 768px) {
           .flex-wrap-container {
             flex-direction: row;
-            align-items: center; 
+            align-items: center;
             gap: 2rem;
           }
 
@@ -237,7 +238,7 @@ export default function Home() {
             width: 100%;
             max-height: none;
           }
-          
+
           .page-main {
             padding: 3rem 2rem;
           }
@@ -259,86 +260,108 @@ export default function Home() {
           .page-main {
             padding: 4rem;
           }
+
           .img-container img {
             height: 350px;
           }
         }
 
-   @media (max-width: 400px) {
-  .chimerical-grid {
-    /* 1. Force 3 equal columns that cannot exceed screen width */
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 0.4rem; /* Tight gap to save space */
-    margin: 1rem 0;
-    width: 100%;
-    max-width: 100%;
-  }
+        @media (max-width: 480px) {
+          .rgb-table {
+            font-size: 0.85rem;
+          }
 
-  /* 2. Scale down the boxes and their contents */
-  .demo-box {
-    width: 100%;
-    min-width: 0; /* Allows box to be smaller than its content */
-  }
+          .rgb-table th,
+          .rgb-table td {
+            padding: 0.6rem 0.75rem;
+          }
 
-  .demo-box span {
-    font-size: 0.9rem !important; /* Smaller "+" or characters inside */
-  }
+          /* Stack each row as a mini card */
+          .rgb-table thead {
+            display: none;
+          }
 
-  .circle {
-    width: 45% !important; /* Shrink the inner circles slightly */
-    height: 45% !important;
-  }
+          .rgb-table tbody tr {
+            display: flex;
+            flex-direction: column;
+            padding: 0.75rem;
+            border-bottom: 1px solid #3d3d3d;
+          }
 
-  /* 3. Scale down all text */
-  .chimerical-grid .small-caption {
-    font-size: 0.6rem; /* Micro-text for headers */
-    line-height: 1.1;
-    min-height: 30px;
-  }
+          .rgb-table tbody td {
+            border-bottom: none;
+            padding: 0.2rem 0;
+          }
 
-  .demo-label {
-    grid-column: 1 / -1;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    font-size: 0.75rem; /* Smaller description text */
-  }
+          .rgb-table tbody td::before {
+            content: attr(data-label);
+            font-weight: 600;
+            color: #aaa;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: block;
+            margin-bottom: 0.15rem;
+          }
 
-  .demo-label strong {
-    font-size: 0.8rem; /* Smaller bold titles */
-  }
-}
+          .chimerical-grid {
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 0.4rem;
+            margin: 1rem 0;
+            width: 100%;
+          }
 
+          /* Hide the 4th header cell (label column) on mobile */
+          .chimerical-grid .small-caption:nth-child(4) {
+            display: none;
+          }
+
+          .demo-box {
+            width: 100%;
+            min-width: 0;
+          }
+
+          .circle {
+            width: 45% !important;
+            height: 45% !important;
+          }
+
+          .demo-label {
+            grid-column: 1 / span 3;
+            text-align: center;
+            margin: 1rem 0 2rem 0;
+            font-size: 0.8rem;
+          }
+
+          .demo-box span {
+            font-size: 0.8rem !important;
+          }
+        }
       `}</style>
 
       <main className="page-main">
         <div className="content-wrapper">
-          <h2>
-            Colors Beyond the Looking Glass - An Introduction to Imaginary
-            Colors
-          </h2>
+          <h2>Colors Beyond the Looking Glass - An Introduction to Imaginary Colors</h2>
 
           <p>
-            A staple for many, one of the first exposures we have to the
-            principles of color composition comes from Crayola crayons. The
-            primary colors, some odd-form variants of red, blue, and yellow: mix
-            them together, use white and black as needed, and you can reproduce
-            any color you want!
+            A staple for many, one of the first exposures we have to the principles of color
+            composition comes from Crayola crayons. The primary colors, some odd-form variants
+            of red, blue, and yellow: mix them together, use white and black as needed, and you
+            can reproduce any color you want!
           </p>
 
           <p>
-            Naturally, we also come into contact with the colors of light. Drop
-            yellow and replace it with green; this is what powers displays,
-            Newton’s prism, and the way we perceive color visually.
+            Naturally, we also come into contact with the colors of light. Drop yellow and replace
+            it with green; this is what powers displays, Newton's prism, and the way we perceive
+            color visually.
           </p>
 
           <h3>The Visual Spectrum</h3>
           <p>
-            Our eyes have three sets of cones for perceiving different
-            wavelengths of light, following the RGB (Red, Green, Blue) format.
-            It is the combination of how much each of these is stimulated that
-            determines the color your brain perceives. There is overlap in the
-            ranges of these cones, however.
+            Our eyes have three sets of cones for perceiving different wavelengths of light,
+            following the RGB (Red, Green, Blue) format. It is the combination of how much each
+            of these is stimulated that determines the color your brain perceives. There is overlap
+            in the ranges of these cones, however.
           </p>
 
           <ul className="cone-list">
@@ -357,9 +380,8 @@ export default function Home() {
           </ul>
 
           <p>
-            The M & L cones have major overlap; as such, it is theorized that
-            instead of looking at absolute values, the visual system turns to
-            relative differences.
+            The M & L cones have major overlap; as such, it is theorized that instead of looking
+            at absolute values, the visual system turns to relative differences.
           </p>
 
           <div className="image-row">
@@ -378,52 +400,47 @@ export default function Home() {
           </div>
 
           <p className="image-caption">
-            This is a sample of the color space that we may be able to see
-            (Right: CIE 1931, chromaticity diagram).
+            This is a sample of the color space that we may be able to see (Right: CIE 1931,
+            chromaticity diagram).
           </p>
 
           <h3>Opponent Processes</h3>
           <p>
-            The <strong>Color Opponent Process</strong> theory suggests that the
-            human visual system interprets these cone signals in an antagonistic
-            manner. Rather than processing each color independently, the brain
-            records the differences between cone responses through three
-            specific channels:
+            The <strong>Color Opponent Process</strong> theory suggests that the human visual
+            system interprets these cone signals in an antagonistic manner. Rather than processing
+            each color independently, the brain records the differences between cone responses
+            through three specific channels:
           </p>
 
           <ul className="cone-list">
             <li>
-              <strong>Red vs. Green:</strong> Compares the L-cone and M-cone
-              signals.
+              <strong>Red vs. Green:</strong> Compares the L-cone and M-cone signals.
             </li>
             <li>
-              <strong>Blue vs. Yellow:</strong> Compares the S-cone signal
-              against a sum of the L and M signals.
+              <strong>Blue vs. Yellow:</strong> Compares the S-cone signal against a sum of the
+              L and M signals.
             </li>
             <li>
-              <strong>Black vs. White:</strong> Detects luminance and light-dark
-              variation (achromatic).
+              <strong>Black vs. White:</strong> Detects luminance and light-dark variation
+              (achromatic).
             </li>
           </ul>
 
           <p>
-            Because these channels are antagonistic, the response to one color
-            in a pair inhibits the response to the other. This explains why we
-            can perceive a “blue-green”, but our brains find it physically
-            impossible to perceive a "reddish-green”.
+            Because these channels are antagonistic, the response to one color in a pair inhibits
+            the response to the other. This explains why we can perceive a "blue-green", but our
+            brains find it physically impossible to perceive a "reddish-green".
           </p>
 
           <div className="flex-wrap-container">
             <div>
               <h3>Digital Representation of Color</h3>
               <p>
-                This is where the earlier mention of RGB comes into play. Each
-                color channel is represented by a value from 0-255, and specific
-                colors are then formed by mixing different combinations for
-                these values. By using something like an RGB LED, we can see a
-                base-level example of what this looks like in the physical
-                world. You can think of this LED as representing a single pixel
-                on a phone screen.
+                This is where the earlier mention of RGB comes into play. Each color channel is
+                represented by a value from 0-255, and specific colors are then formed by mixing
+                different combinations for these values. By using something like an RGB LED, we
+                can see a base-level example of what this looks like in the physical world. You
+                can think of this LED as representing a single pixel on a phone screen.
               </p>
             </div>
             <figure className="gif-column">
@@ -448,36 +465,43 @@ export default function Home() {
             </thead>
             <tbody>
               <tr>
-                <td>Red</td>
-                <td>(255, 0, 0)</td>
-                <td>
-                  <span
-                    className="color-swatch"
-                    style={{ backgroundColor: "#f00" }}
-                  ></span>
+                <td data-label="Color Name">Red</td>
+                <td data-label="RGB Triple">(255, 0, 0)</td>
+                <td data-label="Result">
+                  <span className="color-swatch" style={{ backgroundColor: "#f00" }}></span>
                   Red
                 </td>
               </tr>
               <tr>
-                <td>Green</td>
-                <td>(0, 255, 0)</td>
-                <td>
-                  <span
-                    className="color-swatch"
-                    style={{ backgroundColor: "#0f0" }}
-                  ></span>
+                <td data-label="Color Name">Green</td>
+                <td data-label="RGB Triple">(0, 255, 0)</td>
+                <td data-label="Result">
+                  <span className="color-swatch" style={{ backgroundColor: "#0f0" }}></span>
                   Green
                 </td>
               </tr>
               <tr>
-                <td>Blue</td>
-                <td>(0, 0, 255)</td>
-                <td>
-                  <span
-                    className="color-swatch"
-                    style={{ backgroundColor: "#00f" }}
-                  ></span>
+                <td data-label="Color Name">Blue</td>
+                <td data-label="RGB Triple">(0, 0, 255)</td>
+                <td data-label="Result">
+                  <span className="color-swatch" style={{ backgroundColor: "#00f" }}></span>
                   Blue
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Color Name">White</td>
+                <td data-label="RGB Triple">(255, 255, 255)</td>
+                <td data-label="Result">
+                  <span className="color-swatch" style={{ backgroundColor: "#fff" }}></span>
+                  White
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Color Name">Light Off</td>
+                <td data-label="RGB Triple">(0, 0, 0)</td>
+                <td data-label="Result">
+                  <span className="color-swatch" style={{ backgroundColor: "#000" }}></span>
+                  Light Off
                 </td>
               </tr>
             </tbody>
@@ -485,18 +509,16 @@ export default function Home() {
 
           <h3>Imaginary Colors</h3>
           <p>
-            <strong>Chimerical colors</strong> are a class of imaginary colors
-            that make use of the opponent process theory. They are not colors we
-            can see in nature or artificially generate to see in any one
-            sitting. They are temporarily perceived by looking steadily at a
-            strong color to tire out certain cone cells and then looking at
-            another color (namely a white or black background to neutralize).
+            <strong>Chimerical colors</strong> are a class of imaginary colors that make use of
+            the opponent process theory. They are not colors we can see in nature or artificially
+            generate to see in any one sitting. They are temporarily perceived by looking steadily
+            at a strong color to tire out certain cone cells and then looking at another color
+            (namely a white or black background to neutralize).
           </p>
 
           <p style={{ marginBottom: "0px" }}>
-            What we then start to see is a “seemingly new” saturated area, which
-            is an afterimage of the complementary color, and thus is what forms
-            the imaginary color!
+            What we then start to see is a "seemingly new" saturated area, which is an afterimage
+            of the complementary color, and thus is what forms the imaginary color!
           </p>
 
           <div className="chimerical-grid">
@@ -517,7 +539,8 @@ export default function Home() {
               <div className="circle c-stygian"></div>
             </div>
             <div className="demo-label">
-              <strong>Stygian Blue</strong>Deep blue and black simultaneously.
+              <strong>Stygian Blue</strong>
+              Deep blue and black simultaneously.
             </div>
 
             {/* Self-Luminous Red */}
@@ -532,7 +555,8 @@ export default function Home() {
               <div className="circle c-luminous"></div>
             </div>
             <div className="demo-label">
-              <strong>Self-Luminous Red</strong>Redder and brighter than white.
+              <strong>Self-Luminous Red</strong>
+              Redder and brighter than white.
             </div>
 
             {/* Hyperbolic Orange */}
@@ -547,19 +571,18 @@ export default function Home() {
               <div className="circle c-hyper"></div>
             </div>
             <div className="demo-label">
-              <strong>Hyperbolic Orange</strong>More than 100% color saturation.
+              <strong>Hyperbolic Orange</strong>
+              More than 100% color saturation.
             </div>
           </div>
 
           <p>
-            Let me redirect you to the video that inspired this! Try it for
-            yourself and see which ones you can see; for me,{" "}
-            <strong>Stygian Blue</strong> was the easiest, while{" "}
-            <strong>Hyperbolic Orange</strong> and{" "}
-            <strong>Self-Luminous Red</strong> took a bit more effort. You might
-            also notice that you start to see the color at the edges of the
-            square before the timer even runs out - that’s your eyes moving! But
-            yes, you are seeing the imaginary color.
+            Let me redirect you to the video that inspired this! Try it for yourself and see which
+            ones you can see; for me, <strong>Stygian Blue</strong> was the easiest, while{" "}
+            <strong>Hyperbolic Orange</strong> and <strong>Self-Luminous Red</strong> took a bit
+            more effort. You might also notice that you start to see the color at the edges of the
+            square before the timer even runs out - that's your eyes moving! But yes, you are
+            seeing the imaginary color.
           </p>
 
           <div className="responsive-iframe-wrapper">
